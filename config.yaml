@@ -1,0 +1,19 @@
+ROOT_DIR: "D:\\Dataset\\buahkakao.v3_2i.coco"
+
+IMG_SIZE: 480
+
+EXP_ID: "003"
+
+TRAIN:
+  BATCH_SIZE: 4
+  EPOCHS: 300
+  OPTIMIZER: "sgd"
+  LR: 0.05
+  MOMENTUM: 0.9
+  LOSS_FUNCTION: "cross_entropy"
+  LR_SCHEDULER: "step"
+  STEP_SIZE: 50
+  GAMMA: 0.5
+
+TEST:
+  EXP: ""
